@@ -1,29 +1,34 @@
+/* Style for spoken text */
 .speech {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: black;
 }
 
+/* Style for non-spoken directions */
 .direction {
     font-family: Times New Roman, serif;
     font-size: 14px;
     color: black;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Light gray background color for directions */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect on hover */
 }
 
+/* Change background-color and text color on hover */
 .direction:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #ddd; /* Lighter gray background color on hover */
+    color: black; /* Reset text color on hover */
 }
 
+/* Character-specific styles */
 .mrsalving {
-    color: blue;
+    color: blue; /* You can choose a different color if desired */
 }
 
 .manders {
-    color: green;
+    color: green; /* You can choose a different color if desired */
 }
 
 .oswald {
-    color: red;
+    color: red; /* You can choose a different color if desired */
 }
