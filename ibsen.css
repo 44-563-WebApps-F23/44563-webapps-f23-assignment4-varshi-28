@@ -5,7 +5,7 @@
     color: black;
 }
 
-/* Style for non-spoken directions */
+/* Style for directions */
 .direction {
     font-family: serif;
     font-size: 14px;
@@ -16,8 +16,8 @@
 
 /* Change background-color and text color on hover for directions */
 .direction:hover {
-    background-color: #ddd; /* Lighter gray background color on hover */
-    color: black; /* Reset text color on hover */
+    background-color: #e0562c; /* Lighter gray background color on hover */
+    color: rgb(214, 189, 232); /* Reset text color on hover */
 }
 
 /* Character-specific styles */
