@@ -1,13 +1,13 @@
 /* Style for spoken text */
 .speech {
-    font-style: Arial;
+    font-family: Cambria;
     font-size: 16px;
     color: black;
 }
 
 /* Style for directions */
 .direction {
-    font-family: serif;
+    font-family: bahnschrift;
     font-size: 14px;
     color: black;
     background-color: #f2f2f2; /* Light gray background color for directions */
@@ -22,25 +22,70 @@
 
 /* Character-specific styles */
 .character-MrsAlving {
-    color: rgb(209, 33, 209);
-    font-style: monospace;
+    color: rgb(33, 138, 9);
+    font-family: lucida;
     font-weight: bold;
 }
 
 .character-Manders {
     color: rgb(9, 115, 185);
     font-weight: bold;
-    font-style: monospace; /* Font style for Manders */
+    font-family: Georgia; /* Font style for Manders */
 }
 
 .character-Oswald {
-    color: rgb(127, 133, 40);
+    color: rgb(224, 100, 33);
     font-weight: bold;
-    font-style: serif; /* Font style for Oswald */
+    font-family: gadugi; /* Font style for O4swald */
 }
 /* Define styles for character names */
 .name {
     font-weight: bold;
-    font-family: Times New Roman;
+    font-family: verdana;
     color: rgb(144, 52, 219);
+}
+.name:hover {
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); /* Shadow with an interesting color and blur */
+    border: 2px solid #ff0000; /* Interesting border */
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d1a9e6; 
+    border: 2px solid #9a3193; 
+    margin-top: 20px; 
+}
+
+/* Style for table headers */
+th {
+    background-color:  #d1a9e6; 
+    color: rgb(120, 15, 134); /* White text for header cells */
+    text-align: center; /* Center-align text in header cells */
+    padding: 12px; /* Add padding to header cells */
+    border: 1px solid #ec0dd9 /* Add borders to header cells */
+}
+
+/* Style for alternating rows (row stripes) */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Alternate row background color */
+}
+
+/* Style for table data cells */
+td {
+    text-align: center; /* Center-align text in data cells */
+    padding: 10px; /* Add padding to data cells */
+    border: 1px solid #ec0dd9; /* Add borders to data cells */
+}
+
+/* Style for the first column (Character) */
+td:first-child {
+    font-weight: bold; /* Make the first column text bold */
+}
+
+/* Style for the last two columns (Actor and Understudy) */
+td:nth-child(2),
+td:nth-child(3) {
+    font-style: italic; /* Make the last two columns text italic */
 }
