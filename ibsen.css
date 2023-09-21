@@ -59,10 +59,7 @@
     font-family: verdana;
     color: rgb(144, 52, 219);
 }
-.name:hover {
-    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); /* Shadow with an interesting color and blur */
-    border: 2px solid #ff0000; /* Interesting border */
-}
+
 
 /* Style for the table */
 table {
