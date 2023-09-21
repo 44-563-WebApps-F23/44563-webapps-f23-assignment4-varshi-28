@@ -23,20 +23,35 @@
 /* Character-specific styles */
 .character-MrsAlving {
     color: rgb(33, 138, 9);
-    font-family: lucida;
+    font-family: gadugi;
     font-weight: bold;
+}
+.character-MrsAlving:hover {
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Shadow with an interesting color and blur */
+    border: 2px solid #ff0000; /* Interesting border */
 }
 
 .character-Manders {
     color: rgb(9, 115, 185);
     font-weight: bold;
-    font-family: Georgia; /* Font style for Manders */
+    font-family: gadugi; /* Font style for Manders */
+}
+.character-Manders:hover {
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Shadow with an interesting color and blur */
+    border: 2px solid #ff0000; /* Interesting border */
 }
 
 .character-Oswald {
     color: rgb(224, 100, 33);
     font-weight: bold;
     font-family: gadugi; /* Font style for O4swald */
+}
+.character-Oswald:hover {
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Shadow with an interesting color and blur */
+    border: 2px solid #ff0000; /* Interesting border */
 }
 /* Define styles for character names */
 .name {
